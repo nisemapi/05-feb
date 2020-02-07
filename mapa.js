@@ -6,3 +6,4 @@ let usuario = {
     profesion: "Psicólogo",
     edad: "50"
 }
+document.getElementById("mostrar").innerHTML = usuario.nombre + " " + usuario.apellido + " tiene " + usuario.edad + " años y trabaja como " + usuario.profesion;
